@@ -1,0 +1,32 @@
+.header{
+  background: var(--gray-700);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 12.5rem;
+  display: flex; 
+  position: relative;
+}
+.input{ 
+  position: absolute;
+  top: calc(12.25rem - 1.6875rem);
+
+}
+.logo{
+  align-items: center;
+  display: flex;
+}
+.header h1{
+  height: 3rem;
+  display: inline;
+  color: var(--blue);
+  font-size: 2.7rem;
+  margin-left: 12px;
+}
+.header span{
+  
+  color: var(--purpleDark);
+}
+.header img{
+  height: 2.25rem;
+}

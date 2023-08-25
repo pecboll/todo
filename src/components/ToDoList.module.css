@@ -1,0 +1,54 @@
+.ToDoBox{
+  align-items: center;
+  width: 46rem;
+  margin-top: 5.6875rem;
+}
+.todoHeader{
+  position: relative;
+}
+.taskCreate{
+  color: var(--blue);
+  left: 0;
+  position: absolute;
+  font-size: 1rem;
+}
+.taskComplete{
+  color: var(--purple);
+  right: 0;
+  position: absolute;
+  font-size: 1rem;
+
+}
+
+.todoHeader span{
+  background: var(--gray-400);
+  color: var(--gray-100);
+  border-radius: 9px;
+  padding: 1px 8px;
+}
+
+.ToDoListEmpty{
+  border-top: 2px solid var(--gray-300);
+  border-radius: 8px;
+  margin-top: 43px;
+  min-height: 17.9375rem;
+}
+
+.ToDoList{
+  border-radius: 8px;
+  margin-top: 43px;
+  min-height: 17.9375rem;
+}
+
+.ToDoListEmpty span{
+  color: var(--gray-300);
+  margin-top: 100px;
+
+}
+.clipBoard{ 
+  margin-top: 10px;
+}
+
+.ToDoListEmpty p{
+  color: var(--gray-200);
+}
